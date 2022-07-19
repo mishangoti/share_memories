@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Post</title>
+
+    <style>
+        .boxShadowDiv{
+            box-shadow:
+                0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+                0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+                0 12.5px 10px rgba(0, 0, 0, 0.06),
+                0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+                0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+                0 100px 80px rgba(0, 0, 0, 0.12)
+        }
+        h2{
+            
+            display: block;
+            font-size: 1.5em;
+            margin-top: 0.83em;
+            margin-bottom: 0.83em;
+            margin-left: 0;
+            margin-right: 0;
+            font-weight: bold;
+            text-decoration: underline;
+
+        }
+    </style>
+    <!-- Font Awesome -->
+        <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        rel="stylesheet"
+        />
+        <!-- Google Fonts -->
+        <link
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        rel="stylesheet"
+        />
+        <!-- MDB -->
+        <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.css"
+        rel="stylesheet"
+        />
+</head>
+<!-- MDB -->
+        <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.js"
+        >
+        </script>
+<body>
+    <div style="margin-top: 80px;" class="row justify-content-center">
+        <h2 class="mt-4" style="text-align:center;">Create Post</h2>
+
+           <div class="col-md-4 boxShadowDiv mt-4">
+           
+            <div class="tab-content">
+            
+            
+                     <!-- Email input -->
+                    <div class="form-outline mb-4">
+                    <input type="text" id="loginName" class="form-control" />
+                    <label class="form-label" for="loginName">Title</label>
+                    </div>
+            
+                    <!-- Password input -->
+                    <div class="form-outline mb-4">
+                    <textarea type="text" id="loginPassword" class="form-control"></textarea>
+                    <label class="form-label" for="loginPassword">Message</label>
+                    </div>
+
+                    <div class="form-outline mb-4">
+                        <input type="text" id="loginName" class="form-control" />
+                        <label class="form-label" for="loginName">Tags</label>
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <input type="file" id="loginName" class="form-control" />
+                            <label class="form-label" for="loginName">Upload</label>
+                        </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-block mb-4">Create Post</button>
+        
+                </form>
+                </div>
+                
+            </div>
+            <!-- Pills content -->
+        </div>
+    </div> 
+</body>
+</html>
