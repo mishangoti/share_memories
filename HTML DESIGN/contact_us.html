@@ -92,38 +92,45 @@
         <!-- Container wrapper -->
     </nav>
     <!-- Navbar -->
-    <div class="row mt-4 justify-content-center">
-        <h2 class="mt-4" style="text-align:center;">Create Post</h2>
-            <div class="col-md-4 boxShadowDiv mt-4">
-                <div class="tab-content">
-                    <form action="">
-                        <div class="form-outline mb-4">
-                            <input type="text" id="loginName" class="form-control" />
-                            <label class="form-label" for="loginName">Title</label>
+    
+    <!-- Container (Contact Section) -->
+    <div class="container">
+        <div id="contact" class="mt-6 container-fluid bg-grey">
+            <h2 class="text-center">Contact Us</h2>
+            <div class="row">
+                <div class="col-sm-5">
+                    <p>Contact us and we'll get back to you within 24 hours.</p>
+                    <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+                    <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+                </div>
+                <div class="col-sm-7 slideanim">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <div class="form-outline mb-4">
+                                <input type="text" id="fullname" class="form-control" />
+                                <label class="form-label" for="fullname">Full Name</label>
+                            </div>
                         </div>
-                    
-                        <div class="form-outline mb-4">
-                            <textarea type="text" id="loginPassword" class="form-control"></textarea>
-                            <label class="form-label" for="loginPassword">Message</label>
+                        <div class="col-sm-6 form-group">
+                            <div class="form-outline mb-4">
+                                <input type="email" id="email" class="form-control" />
+                                <label class="form-label" for="email">Email</label>
+                            </div>
                         </div>
-
-                        <div class="form-outline mb-4">
-                            <input type="text" id="loginName" class="form-control" />
-                            <label class="form-label" for="loginName">Tags</label>
+                    </div>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Write your resone for contacting us" rows="5"></textarea><br>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button class="btn btn-default pull-right" type="submit">Send</button>
                         </div>
-
-                        <div class="form-outline mb-4">
-                            <input type="file" id="loginName" class="form-control" />
-                            <label class="form-label" for="loginName">Upload</label>
-                        </div>
-                        
-                        <button type="submit" class="btn btn-primary btn-block mb-4">Create Post</button>
-                    </form>
+                    </div>
                 </div>
             </div>
-            <!-- Pills content -->
         </div>
     </div>
+
+
     <footer class="text-center mt-6 text-white" style="background-color: #caced1;">
         <!-- Grid container -->
         <div class="container p-4">
