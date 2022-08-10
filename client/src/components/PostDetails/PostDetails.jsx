@@ -1,11 +1,11 @@
 import React from 'react'
 
 const PostDetails = () => {
-    
-    console.log('Post Details');
-
+  console.log("postdetails")
   return (
-    <div>PostDetails</div>
+    <div>
+      postdetails
+    </div>
   )
 }
 
